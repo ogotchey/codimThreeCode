@@ -1,0 +1,33 @@
+
+Main Routine started at 1625001638
+with options: new OptionTable from {highDeg => 10, maxTries => 10, useN => true, degSeq => 1 : (0), checkIn => 10, strictTerms => false, logging => true, fieldChar => 3, numTerms => 3, mn => 7, lowDeg => 4}(11, 7, H, 1, 1, 1)
+
+Main Routine finished:
+at 1625001652
+ran for 14 seconds, 
+classified 4 ideals,
+ generated 4 distinct classes,
+and discovered 1 new classes
+
+Main Routine started at 1630704953
+with options: new OptionTable from {highDeg => 8, maxTries => 10, useN => false, degSeq => (10,10,10,10,10), checkIn => 100, strictTerms => false, logging => false, fieldChar => 3, numTerms => 0, mn => 3, lowDeg => 2}
+
+Main Routine started at 1630705019
+with options: new OptionTable from {highDeg => 8, maxTries => 10, useN => false, degSeq => (10,10,10,10,10), checkIn => 100, strictTerms => false, logging => false, fieldChar => 3, numTerms => 0, mn => 5, lowDeg => 2}
+
+Main Routine finished:
+at 1630705041
+ran for 22 seconds, 
+classified 0 ideals,
+ generated 0 distinct classes,
+and discovered 0 new classes
+
+Main Routine started at 1630705499
+with options: new OptionTable from {highDeg => 8, maxTries => 10, useN => false, degSeq => (10,10,10,10,10,10,10,10), checkIn => 100, strictTerms => false, logging => false, fieldChar => 3, numTerms => 0, mn => 5, lowDeg => 2}
+
+Main Routine finished:
+at 1630705521
+ran for 22 seconds, 
+classified 0 ideals,
+ generated 0 distinct classes,
+and discovered 0 new classes
