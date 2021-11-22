@@ -35,8 +35,10 @@ zeroorblank := (m,n,p,q) -> (
 			if( (n==2 and p==3 and q==2) or (n%2==0 and n>=4 and p==3 and q==0)) then 0 else " "
 		)
 		else(
+			if(n==1) then ( if (p==0 and q==1 and (m%2)==0) then 0 else " ")
+			else(
 			if (n==2) then (
-				if(m%2==0) then (
+				if(not m%2==0) then (
 					if(p==0 and q==0) then 0 else " "
 				)
 				else(
@@ -59,7 +61,7 @@ zeroorblank := (m,n,p,q) -> (
 					)
 				)
 			)
-		)
+		))
 	)
 )
 
