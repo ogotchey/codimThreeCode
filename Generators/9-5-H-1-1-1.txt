@@ -1,0 +1,2 @@
+matrix {{y^3, z^4, x*z^3, x*y*z^2, x*y^2*z, x^3*z^2, x^4*z, x^4*y, x^5}}
+matrix {{y^2*z^2, y^3*z, x*y^3, x^4, x^2*z^3, y*z^5, x*z^5, z^8, y^8}}
