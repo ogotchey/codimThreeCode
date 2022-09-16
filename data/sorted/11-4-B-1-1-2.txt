@@ -1,1 +1,0 @@
-matrix {{z^5, x*z^4, x*y*z^3, x^2*y*z^2, x^3*y*z-y^4*z-x^3*z^2-y*z^4, x^4*y-x*y^4-x^4*z, y^3*z^3, x*y^4*z+x^4*z^2, x^2*y^3*z, x^5*z, x^6-x^3*y^3+y^6}}
