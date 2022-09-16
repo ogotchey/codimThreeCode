@@ -1,0 +1,6 @@
+matrix {{x*z, y^2, z^3, y*z^2, x^3}}
+matrix {{y^2, z^3, x*y*z, x^2*z, x^3}}
+matrix {{y^2-y*z, x*y-x*z, x^2-z^2, z^3, x*z^2}}
+matrix {{x*y-y^2+x*z+z^2, x^2-y*z+z^2, y*z^2-z^3, x*z^2+z^3, y^2*z}}
+matrix {{y^2+x*z+y*z, x^2+x*y+x*z-y*z+z^2, y*z^2, x*z^2-z^3, x*y*z-z^3}}
+matrix {{x^2*y*z+x*y*z^2+y*z^3, x^3*z+y^3*z+x*y*z^2+y*z^3, x*y^2*z^2+y^2*z^3+y*z^4, x^8+x^7*y+x*y^7+z^8, x^2*y^7+y^9}}
