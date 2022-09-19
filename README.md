@@ -18,7 +18,7 @@ Import a class into Macaulay2.  In a fresh instance of Macaulay2, we initialize 
 `needsPackage "TorAlgebra"`
 `fileIn = lines get "6-4-H-0-0-0.txt"`
 You will see a list of matrices, each one representing a set of generator for the given class:
-	matrix {{x*z^2, y^2*z, x^2*y, x^3, z^4, y^4}}<br>
+	```matrix {{x*z^2, y^2*z, x^2*y, x^3, z^4, y^4}}<br>
 	matrix {{z^3, x*z^2, y^3, x*y^2, x^2*y, x^3-y*z^2}}<br>
 	matrix {{z^3, x^2*z, y^3, x*y^2, x^2*y-x*z^2+y*z^2, x^3-y^2*z}}<br>
 	matrix {{z^3, y^2*z, x^2*z+x*y*z-x*z^2+y*z^2, x*y^2+y^3, x^2*y, x^3}}<br>
@@ -28,7 +28,7 @@ You will see a list of matrices, each one representing a set of generator for th
 	matrix {{x*z^2-y*z^2-z^3, x*y*z+y^2*z+y*z^2, x^2*z+z^3, x*y^2, x^2*y+y^3+y*z^2+z^3, x^3-y^3+y^2*z-y*z^2}}<br>
 	matrix {{x*y*z+x*z^2+z^3, x^2*z-y*z^2+z^3, y^3-y^2*z+x*z^2+z^3, x*y^2+x*z^2+y*z^2-z^3, x^2*y-y*z^2+z^3, x^3-x*z^2-y*z^2-z^3}}<br>
 	matrix {{x*y*z+y^2*z+y*z^2+z^3, x^2*z+x*z^2+z^3, y^3-y^2*z+x*z^2-z^3, x*y^2-y^2*z+y*z^2-z^3, x^2*y+x*z^2+y*z^2+z^3, x^3-y^2*z+x*z^2}}<br>
-	matrix {{x*y*z+y*z^2-z^3, x^2*z-y^2*z-x*z^2+y*z^2+z^3, y^3+x*z^2-y*z^2+z^3, x*y^2+y*z^2+z^3, x^2*y-y^2*z+x*z^2+y*z^2+z^3, x^3+y^2*z-x*z^2+y*z^2}}
+	matrix {{x*y*z+y*z^2-z^3, x^2*z-y^2*z-x*z^2+y*z^2+z^3, y^3+x*z^2-y*z^2+z^3, x*y^2+y*z^2+z^3, x^2*y-y^2*z+x*z^2+y*z^2+z^3, x^3+y^2*z-x*z^2+y*z^2}}```
 In order to select out a single matrix, use the subscript ('#') notation:
 `idealGeneratorText = fileIn#0`
 Note that M2 indices start at 0.  Then, process the string into an actual M2 object:
