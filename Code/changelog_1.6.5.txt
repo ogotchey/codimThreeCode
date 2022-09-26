@@ -1,8 +1,0 @@
-Added in version 1.6.5
-
--A check is now performed on numTerms to ensure that it doesn't exceed an upper bound determined by the degree bounds
--Added upper bounds to m and n (m<=12 and n<=10)
--The optional boolean argument "logging" of the main function, set to true by default, now controls whether or not a record of new classes is printed to the logfile.
--As a consequence of the above, each call to main is now hardcoded to save metadata to log.  i.e. will do so even when logging==false
-TODO:
--Change the way the main function handles logfile descriptor
